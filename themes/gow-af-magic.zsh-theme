@@ -4,6 +4,7 @@
 # settings
 typeset +H my_gray="$FG[237]"
 typeset +H my_orange="$FG[214]"
+# Refer https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit for more colour config
 ZSH_THEME_FOLDER_PATH_COLOUR="$FG[032]"
 
 # primary prompt
