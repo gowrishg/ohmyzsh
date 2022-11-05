@@ -4,10 +4,11 @@
 # settings
 typeset +H my_gray="$FG[237]"
 typeset +H my_orange="$FG[214]"
+ZSH_THEME_FOLDER_PATH_COLOUR="$FG[032]"
 
 # primary prompt
 PS1='$FG[245]-----------------------------------%*-----------------------------------%{$reset_color%}
-$FG[032]%~$(git_prompt_info)$(hg_prompt_info) $FG[105]%(!.#.»)%{$reset_color%} '
+%{$ZSH_THEME_FOLDER_PATH_COLOUR%}%~$(git_prompt_info)$(hg_prompt_info) $FG[105]%(!.#.»)%{$reset_color%} '
 
 # git settings
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[075]($FG[078]"
